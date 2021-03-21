@@ -17,8 +17,8 @@ class Dog
     @@all.clear
   end
 
-  def self.print_all(name)
-      puts "#{name}"
+  def self.print_all
+      puts "#{@name}"
   end
 
 
